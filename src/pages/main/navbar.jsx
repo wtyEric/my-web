@@ -6,11 +6,7 @@ const Navbar = () => {
     
       
 
-  <nav className='Home'>
-      
-      Welcom to my CSS Testing XDD
-  
-  </nav>
+  <nav className='nav'> Home  About me  </nav>
 
    
  )

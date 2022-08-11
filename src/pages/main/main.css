@@ -1,21 +1,36 @@
+.main{
+    position: relative;
+    height: 100vh;
+    background-image: url(./hofn-austurland-snow-beach-4k-co.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+   
+}
 
-.Home{
+.welcome{
+  
     color:aliceblue;
     position: relative;
+    top: 40%;
     margin: 0 auto;
     border-right: 2px solid rgba(51, 255, 0, 0);
-    font-size: 180%;
+    font-style: Trattatello, fantasy;
+    font-size: 300%;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
     animation: typewriter 4s steps(44) 1s 1 normal both,
-                blinkTextCursor 250ms steps(22) 10;
+                blinkTextCursor 250ms steps(44) 20;
+
+    
 }
 
 /* Animation */
 @keyframes typewriter{
   from{width: 0;}
-  to{width: 30em;}
+  to{width: 15em;}
 }
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(255, 0, 0, 0.75);}

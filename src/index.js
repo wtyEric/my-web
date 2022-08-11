@@ -2,8 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Navbar from './pages/navbar';
-import Main from './pages/main';
+import Main from './pages/main/main';
 
 
 
@@ -11,11 +10,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
 
- 
-  <Navbar></Navbar>
   <Main/>
-
-
 
   </React.StrictMode>,
   
