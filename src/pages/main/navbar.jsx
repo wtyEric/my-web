@@ -6,7 +6,7 @@ const Navbar = () => {
     
       
 
-  <nav className='nav'> Home  About me  </nav>
+  <nav className='nav'> Home </nav>
 
    
  )

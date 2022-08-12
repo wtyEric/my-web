@@ -1,22 +1,43 @@
+
 .main{
     position: relative;
-    height: 100vh;
-    background-image: url(./hofn-austurland-snow-beach-4k-co.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
+
+
    
 }
 
+.img1{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 200vh;
+    background-color: black;
+    background-image: url(./hofn-austurland-snow-beach-4k-co.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1;
+}
+    
+.img2{
+    position: absolute;
+    left: 0px;
+    top: 200vh;
+    width: 100%;
+    height: 200vh;
+    background-color: black;
+    background-image: url(./caczaeaaaaaeaac.avif);
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1;
+}
 .welcome{
-  
     color:aliceblue;
     position: relative;
-    top: 40%;
+    top: 45vh;
     margin: 0 auto;
     border-right: 2px solid rgba(51, 255, 0, 0);
-    font-style: Trattatello, fantasy;
+    font-family: Trattatello, fantasy;
     font-size: 300%;
     text-align: center;
     white-space: nowrap;
@@ -25,14 +46,42 @@
                 blinkTextCursor 250ms steps(44) 20;
 
     
+  background: -webkit-linear-gradient(white, #45b7b7);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+   
 }
+
+
+
+
 
 /* Animation */
 @keyframes typewriter{
   from{width: 0;}
-  to{width: 15em;}
+  to{width: 14em;}
 }
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(255, 0, 0, 0.75);}
   to{border-right-color: transparent;}
 }
+
+
+
+.test{
+    position: relative;
+    top: 190vh;
+    width: 100%;
+    height: auto;
+    background-color: rgb(73, 72, 72);
+    font-size: 200%;
+    text-align: center;
+    font-family: Trattatello, fantasy;
+}
+
+@keyframes animStar{
+  from{transform: translateY(-200px)}	
+  to{transform: translateY(0px)}		
+}
+    
+    
